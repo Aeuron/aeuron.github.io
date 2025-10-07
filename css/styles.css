@@ -318,7 +318,8 @@ figure {
 }
 
 img,
-svg {
+svg,
+video {
   vertical-align: middle;
 }
 
@@ -11257,7 +11258,7 @@ header.masthead .masthead-heading {
 .portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 2rem;
 }
-.portfolio-modal .modal-content img {
+.portfolio-modal .modal-content img, video {
   margin-bottom: 2rem;
 }
 .portfolio-modal .close-modal {
@@ -11276,7 +11277,7 @@ header.masthead .masthead-heading {
 /* Make the hero image flush to the modal edges */
 .portfolio-modal .modal-hero { position: relative; overflow: hidden; padding: 0; --hero-cta-offset: clamp(1.25rem, 3.5vw, 2.75rem);}
 
-.portfolio-modal .modal-hero img {
+.portfolio-modal .modal-hero img, video {
   display: block;            /* remove inline gap */
   width: 100%;               /* fill width */
   /* height: auto;              keep aspect ratio */
