@@ -11453,8 +11453,8 @@ header.masthead .masthead-heading {
   transform: translateX(-50%);
   width: 35rem;                /* line length */
   height: 3px;                /* line thickness */
-  background: #ffffff;   /* matches the heading color */
-  
+  background: #ffffff !important;   /* matches the heading color */
+
   opacity: 1;               /* soften */
   border-radius: 999px;       /* pill ends */
   box-shadow: 0 3px 10px rgba(0,0,0,.75);
